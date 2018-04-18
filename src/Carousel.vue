@@ -540,8 +540,6 @@ export default {
         return;
       }
 
-      // we are good to prevent the move and handle the translation
-      e.preventDefault();
       e.stopImmediatePropagation();
 
       this.dragOffset = newOffsetX;
